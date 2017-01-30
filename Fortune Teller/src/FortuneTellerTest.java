@@ -18,11 +18,11 @@ public class FortuneTellerTest {
 		
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("WELCOME TO THE FORTUNE TELLER APP.\n\n\n");
+		System.out.println("WELCOME TO THE FORTUNE TELLER APP.");
 		
 		
 		do {
-			System.out.println("What is your first name?");
+			System.out.println("\n\n\nWhat is your first name?");
 			firstName = scanner.next();
 			
 			System.out.println("What is your last name?");
@@ -149,7 +149,7 @@ public class FortuneTellerTest {
 			
 			
 		}while(playAgain.equalsIgnoreCase("Y"));
-		System.out.println("Thanks for using Fortune Teller");
+		System.out.println("\n\nThank You for using Fortune Teller");
 		
 		scanner.close();
 		
